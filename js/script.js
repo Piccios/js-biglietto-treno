@@ -10,7 +10,14 @@ console.log(customerAge);
 
 // Setto il costo del biglietto per km
 
-const ticketPrice = customerTrip * 0.276
+let ticketPrice = (customerTrip * 0.276)
 
 console.log(ticketPrice);
+
+// Setto uno sconto del 21% al prezzo del biglietto se il cliente ha meno di 18 anni
+
+if (customerAge < 18){
+
+}
+
 
