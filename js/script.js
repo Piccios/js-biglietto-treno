@@ -12,12 +12,19 @@ console.log(customerAge);
 
 let ticketPrice = (customerTrip * 0.276)
 
-console.log(ticketPrice);
 
 // Setto uno sconto del 21% al prezzo del biglietto se il cliente ha meno di 18 anni
 
-if (customerAge < 18){
-
+if (customerAge < 18) {
+    ticketPrice = ticketPrice - (ticketPrice * 0.21);
 }
+
+// Setto uno sconto del 65% al prezzo del biglietto se il cliente ha piu' di 65 anni
+
+if (customerAge > 65) {
+    ticketPrice = ticketPrice - (ticketPrice * 0.65);
+}
+
+console.log(ticketPrice);
 
 
