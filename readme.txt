@@ -15,6 +15,6 @@
     - il prezzo del biglietto veine scontato del 65%
 
 6. Calcolo il prezzo del viaggio:
-    - esprimo il prezzo del biglietto per il cliente con un output in forma umana ( con un massimo di due decimali, per indicare i centesimi sul prezzo)
+    - esprimo il prezzo del biglietto con un massimo di due decimali, per indicare i centesimi sul prezzo
 
 7. Il file HTML esporra' il prezzo del biglietto.
