@@ -25,6 +25,10 @@ if (customerAge > 65) {
     ticketPrice = ticketPrice - (ticketPrice * 0.65);
 }
 
-console.log(ticketPrice);
+let roundedPrice = Math.round(ticketPrice * 100) / 100;
 
+console.log(roundedPrice);
+
+
+document.getElementById('Price').innerHTML = roundedPrice;
 
