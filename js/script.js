@@ -12,7 +12,6 @@ console.log(customerAge);
 
 let ticketPrice = (customerTrip * 0.276)
 
-
 // Setto uno sconto del 21% al prezzo del biglietto se il cliente ha meno di 18 anni
 
 if (customerAge < 18) {
@@ -29,6 +28,7 @@ let roundedPrice = Math.round(ticketPrice * 100) / 100;
 
 console.log(roundedPrice);
 
+// Esprimo il prezzo finale del biglietto sul file HTML
 
 document.getElementById('Price').innerHTML = roundedPrice;
 
